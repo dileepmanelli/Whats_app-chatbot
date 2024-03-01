@@ -6,11 +6,11 @@ from twilio.rest import Client
 import mysql.connector
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'dd1f016920751153b23be1e0c3c030adeda6e7e4145a4798'
+app.config['SECRET_KEY'] = ''
 
 # Twilio credentials
-account_sid = 'AC12021ccb1b17cc9333aefc9139ecdd98'
-auth_token = 'f307f7ed66f4d51a558270583e58aa6f'
+account_sid = ''
+auth_token = ''
 twilio_whatsapp_number = 'whatsapp:+14155238886'  # Twilio WhatsApp sandbox number
 
 # Recipient number
