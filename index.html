@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Data to WhatsApp</title>
+</head>
+<body>
+    <h1>Send Data to WhatsApp</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.name.label }}<br>
+            {{ form.name(size=32) }}<br>
+            {% for error in form.name.errors %}
+                <span style="color: red;">{{ error }}</span><br>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.email.label }}<br>
+            {{ form.email(size=32) }}<br>
+            {% for error in form.email.errors %}
+                <span style="color: red;">{{ error }}</span><br>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.mobile_number.label }}<br>
+            {{ form.mobile_number(size=32) }}<br>
+            {% for error in form.mobile_number.errors %}
+                <span style="color: red;">{{ error }}</span><br>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.pdf_file.label }}<br>
+            {{ form.pdf_file }}<br>
+            {% for error in form.pdf_file.errors %}
+                <span style="color: red;">{{ error }}</span><br>
+            {% endfor %}
+        </p>
+        <button type="submit">Send to WhatsApp</button>
+    </form>
+</body>
+</html>
