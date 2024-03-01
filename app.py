@@ -14,7 +14,7 @@ auth_token = ''
 twilio_whatsapp_number = 'whatsapp:+14155238886'  # Twilio WhatsApp sandbox number
 
 # Recipient number
-recipient_number = '7893913171'  # Recipient number provided
+recipient_number = ''  # Recipient number provided
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
