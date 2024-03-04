@@ -10,19 +10,19 @@ Feedback Messages: Users receive immediate feedback messages on the web interfac
 Flash Messages: Flash messages are displayed on the web page to provide real-time notifications to users regarding the status of their data submission.<br>
 
 # Technologies Used
-Flask: Python-based web framework for developing the backend server.
-HTML/CSS: Frontend development for designing the user interface.
-Twilio API: Integration with Twilio's WhatsApp API for sending messages.
-MySQL: Database management system for storing user data (optional).
-Python: Programming language used for backend logic and integration with Twilio.
+Flask: Python-based web framework for developing the backend server.<br>
+HTML/CSS: Frontend development for designing the user interface.<br>
+Twilio API: Integration with Twilio's WhatsApp API for sending messages.<br>
+MySQL: Database management system for storing user data (optional).<br>
+Python: Programming language used for backend logic and integration with Twilio.<br>
 
 # Usage
 Clone the repository to your local machine.
-Install the required dependencies using pip install -r requirements.txt.
-Update the Twilio credentials and WhatsApp number in the app.py file.
-Run the Flask application using python app.py.
-Access the web application through the provided URL and fill out the data collection form.
-Upon submission, receive immediate feedback on the web interface regarding the status of your data submission.
+Install the required dependencies using pip install -r requirements.txt.<br>
+Update the Twilio credentials and WhatsApp number in the app.py file.<br>
+Run the Flask application using python app.py.<br>
+Access the web application through the provided URL and fill out the data collection form.<br>
+Upon submission, receive immediate feedback on the web interface regarding the status of your data submission.<br>
 # Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
