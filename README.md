@@ -3,11 +3,11 @@
 The WhatsApp Chatbot for Data Collection is a web application designed to streamline the process of collecting user information via WhatsApp. The chatbot allows users to submit their details conveniently through a user-friendly interface, and the submitted information is automatically sent to a designated WhatsApp number using Twilio's API.
 
 # Key Features
-User-Friendly Interface: The web application provides a simple and intuitive form for users to input their details, including name, email, and mobile number.
-Validation: Data validation ensures that the user inputs are accurate and properly formatted, providing a seamless user experience.
-WhatsApp Integration: The chatbot seamlessly integrates with WhatsApp using Twilio's API, enabling automatic sending of user-submitted details to a specified WhatsApp number.
-Feedback Messages: Users receive immediate feedback messages on the web interface confirming whether their details have been successfully sent to WhatsApp.
-Flash Messages: Flash messages are displayed on the web page to provide real-time notifications to users regarding the status of their data submission.
+User-Friendly Interface: The web application provides a simple and intuitive form for users to input their details, including name, email, and mobile number.<br>
+Validation: Data validation ensures that the user inputs are accurate and properly formatted, providing a seamless user experience.<br>
+WhatsApp Integration: The chatbot seamlessly integrates with WhatsApp using Twilio's API, enabling automatic sending of user-submitted details to a specified WhatsApp number.<br>
+Feedback Messages: Users receive immediate feedback messages on the web interface confirming whether their details have been successfully sent to WhatsApp.<br>
+Flash Messages: Flash messages are displayed on the web page to provide real-time notifications to users regarding the status of their data submission.<br>
 
 # Technologies Used
 Flask: Python-based web framework for developing the backend server.
